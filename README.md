@@ -1,6 +1,6 @@
 # DUT-1
 
-Depot de travaux pratiques et mini-projets realises pendant la formation DUT 1 (web, Java, Python, C, reseau).
+Depot de travaux pratiques et mini-projets realises durant ma formation en génie informatique DUT 1 (web, Java, Python, C, reseau).
 
 ## Vue d'ensemble
 
