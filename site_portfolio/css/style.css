@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #243130;
+}
+
+.header{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 75%;
+    position: fixed;
+}
+
+.header .logo{
+    color:transparent;
+    padding-bottom: 10px;
+    -webkit-text-stroke: .6px #16c893;
+    font-size: 30px;
+
+}
+
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#fff;
+}
+
+.header .navbar li{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.header .navbar li a{
+    color:#fff;
+    transition: .5s;
+}
+
+.header .navbar li a:hover{
+    color: #16c893;
+    transition: .5s;
+}
+
+.home{
+    background: url("../images/2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 9%;
+    padding-top: 180px;
+}
+
+section{
+    padding: 10rem 4% 2rem;
+    min-height:100vh ;
+    min-width: 100vw;
+}
+
+.home .content{
+    width: 60%;
+}
+
+.home .content h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.home .content h1 span{
+    color: #16c893;
+    font-size: 60px;
+}
+
+.home .content h2{
+    padding-left: 10px;
+    color:transparent;
+    padding-bottom: 10px;
+    -webkit-text-stroke: .6px #fff;
+    font-size: 22px;
+}
+
+.home .content p{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.home .bouton {
+    
+    width: 34.5rem;
+    height: 5rem;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .btn:nth-child(1){
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    color: #fff;
+    text-align: center;
+    background: #16c893;
+    border: 1px solid #16c893;
+    font-weight: bold;
+    font-size: 13px;
+    width: 15rem;
+    height: 100%;
+    
+}
+
+.btn:nth-child(2){
+    border-radius: .8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #16c893;
+    border: 1px solid #16c893;
+    font-weight: bold;
+    font-size: 13px;
+    width: 15rem;
+    height: 100%;
+}
